@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag wslibrepy
     - name: Docker Push
-      run: docker push wsguys/wslibrepy:latest
+      run: docker push ${{ secrets.DOCKER_USER }}/wsguys/wslibrepy:latest
