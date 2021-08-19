@@ -25,4 +25,3 @@ ENV LANG='en_US.UTF-8' \
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 CMD ["python3"]
-
